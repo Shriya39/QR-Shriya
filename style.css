@@ -1,0 +1,64 @@
+p,h1,h2,h3,h4{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-color:  hsl(30, 38%, 92%);
+    font-family: 'Fraunces', serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.product-card{
+    width: 300px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+
+}
+.product-image img{
+    width: 100%;
+}
+.product-content{
+    padding: 15px;
+}
+.subtitle {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 3px;
+    color:hsl(228, 12%, 48%) ;
+
+}
+.product-title{
+    color: hsl(212, 21%, 14%) ;
+    font-family: 'Fraunces', serif;
+    font-size: 1.8em;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.product-description{
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.discounted-price{
+    font-size: 1.9em;
+    color:hsl(158, 36%, 37%) ;
+}
+.original-price{
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+.button{
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+}
